@@ -1,0 +1,34 @@
+
+.card {
+    /* Adiciona sombra para efeito de card */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 1px; /* 5px de borda redonda */
+    width: 224px;
+    margin: 10px;
+    background-color: #f0f5f9;
+}
+  
+  /* Dá uma sombra maior quando o mouse estiver sobre */
+.card:hover {
+    margin: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 224px;
+  }
+
+body {
+    background-image: linear-gradient(to bottom right, #f73859, #384259);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:100% 100%;
+    height: 100vh;
+}
